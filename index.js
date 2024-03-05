@@ -1,8 +1,4 @@
 
-
-
-
-
 // const students = {
 //     name: "Mohammed",
 //     printName: function () {
@@ -36,5 +32,4 @@ printFullName.call(name2, "Pune Near Aazam Campus")
 printFullName.apply(name2, ["Nashik Mahashtra"])
 
 let bindMethod = printFullName.bind(name2, "Hello Mohammed Uzair");
-console.log("bindMethod ======>", bindMethod)
 bindMethod()
